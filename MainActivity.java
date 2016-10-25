@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         db = new database(this);
         db.open();
-        iNit();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         clear = (Button) findViewById(R.id.clear);
